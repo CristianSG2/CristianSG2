@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Cristian
 
-I'm a **Junior Web Developer** recently graduated in Web Application Development (DAW).  
+I'm a **Junior Web Developer** graduated in Web Application Development (DAW).  
 I enjoy building web applications, learning new technologies, and contributing to real-world projects.
 
 ---

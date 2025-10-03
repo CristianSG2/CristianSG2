@@ -47,4 +47,5 @@ I enjoy building web applications, learning new technologies, and contributing t
 ## 🤝 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristiansanchezgut)
-[![Email](https://img.shields.io/badge/Email-cristian.sanchez.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cristian.sanchez.dev@gmail.com)
+[![Email](https://img.shields.io/badge/Email-cristiansg.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cristiansg.dev@gmail.com)
+

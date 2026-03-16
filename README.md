@@ -20,6 +20,8 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![DDEV](https://img.shields.io/badge/DDEV-02AAAA?style=for-the-badge&logo=ddev&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 
 ---
 
@@ -41,6 +43,21 @@
 - Profile stats page (`/me`) with reading metrics and rating averages
 - Six-palette CSS theme system with persistent selector
 - Structured Git workflow: feature branches → develop → main, Conventional Commits
+
+
+### 🗺️ rutameteo
+> App web para consultar el tiempo por tramos en una ruta de conducción — sin backend, sin API keys, sin registro.
+
+**Stack:** Vue 3 · Vite · Leaflet.js · SCSS · Open-Meteo API · OSRM API
+
+[![Repo](https://img.shields.io/badge/GitHub-CristianSG2%2Frutameteo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CristianSG2/rutameteo)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-rutameteo.cristiansg.dev-4CAF50?style=for-the-badge&logo=vercel&logoColor=white)](https://rutameteo.cristiansg.dev)
+
+**Highlights:**
+- Ruta real por carretera con tiempos de llegada precisos usando OSRM Table API
+- Pronóstico por tramo: temperatura, lluvia, viento, visibilidad e icono del tiempo
+- Autocompletado de direcciones con soporte de calles y puntos de interés
+- Geocodificación inversa — nombres reales de localidades en cada tramo
 
 ---
 

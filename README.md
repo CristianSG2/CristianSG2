@@ -38,15 +38,21 @@
 
 **Highlights:**
 - Manual authentication (login, register, logout) with CSRF, session regeneration & login throttling
-- Google Books API integration for book search and data
-- Reading states (Wishlist, Reading, Read, Abandoned), ratings (1–10) and reviews
+- Google Books API integration with language-prioritized search (Spanish first, English second) and cover filtering
+- Reading states (Wishlist, Reading, Read, Abandoned), half-star ratings (0.5–5) and reviews
+- All actions (save, rate, review, delete) handled inline via fetch — zero page reloads
+- Toast notification system for consistent feedback across the entire app
+- Skeleton loader with shimmer animation on book covers, respecting the active theme
+- Catppuccin Mocha / Latte dual theme system with persistent toggle and zero flash on load
 - Profile stats page (`/me`) with reading metrics and rating averages
-- Six-palette CSS theme system with persistent selector
 - Structured Git workflow: feature branches → develop → main, Conventional Commits
+- 16 feature tests (auth, reading logs, profile) — PHPUnit with SQLite in-memory
 
+---
 
 ### 🗺️ rutameteo
-> App web para consultar el tiempo por tramos en una ruta de conducción — sin backend, sin API keys, sin registro.
+
+> A web app to check weather conditions along a driving route — no backend, no API keys, no sign-up required.
 
 **Stack:** Vue 3 · Vite · Leaflet.js · SCSS · Open-Meteo API · OSRM API
 
@@ -54,10 +60,10 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-rutameteo.cristiansg.dev-4CAF50?style=for-the-badge&logo=vercel&logoColor=white)](https://rutameteo.cristiansg.dev)
 
 **Highlights:**
-- Ruta real por carretera con tiempos de llegada precisos usando OSRM Table API
-- Pronóstico por tramo: temperatura, lluvia, viento, visibilidad e icono del tiempo
-- Autocompletado de direcciones con soporte de calles y puntos de interés
-- Geocodificación inversa — nombres reales de localidades en cada tramo
+- Real road routing with accurate arrival times using OSRM Table API
+- Per-segment weather forecast: temperature, rain, wind, visibility and weather icon
+- Address autocomplete with support for streets and points of interest
+- Reverse geocoding — real locality names for each route segment
 
 ---
 
